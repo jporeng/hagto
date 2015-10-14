@@ -12,26 +12,25 @@
         <ion-nav-view name="menuContent" ng-class="{expanded: isExpanded}" ></ion-nav-view>
     </ion-side-menu-content>
     <ion-side-menu side="right">
-      
+        <ion-header-bar class="dark-bg expanded">
+            <span class="avatar" style="background: url('img/hagto.jpg'); background-size: cover;"></span>
+            <h2>Hagto</h2>
+        </ion-header-bar>
         <ion-content class="stable-bg has-expanded-header">
             <ion-list>
-                <ion-item nav-clear menu-close ui-sref="app.lend">
-                    Lending
+                <ion-item nav-clear menu-close ui-sref="app.activity">
+                    Leanding
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.borrow">
+                <ion-item nav-clear menu-close ui-sref="app.login">
                     Borrowing
-                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.wallet">
-                    Wallet
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.profile">
                     Profile
                 </ion-item>
-				
-                <ion-item nav-clear menu-close ui-sref="app.contact">
-                    Contacts
+                <ion-item nav-clear menu-close ui-sref="app.friends">
+                    Contact
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.logout">
+                <ion-item nav-clear menu-close ui-sref="app.gallery">
                     Logout
                 </ion-item>
             </ion-list>
