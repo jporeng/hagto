@@ -12,26 +12,27 @@
         <ion-nav-view name="menuContent" ng-class="{expanded: isExpanded}" ></ion-nav-view>
     </ion-side-menu-content>
     <ion-side-menu side="right">
-        <ion-header-bar class="dark-bg expanded">
-            <span class="avatar" style="background: url('img/crown.jpg'); background-size: cover;"></span>
-            <h2>Thronester</h2>
-        </ion-header-bar>
+      
         <ion-content class="stable-bg has-expanded-header">
             <ion-list>
-                <ion-item nav-clear menu-close ui-sref="app.activity">
-                    Activity
+                <ion-item nav-clear menu-close ui-sref="app.lend">
+                    Lending
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.login">
-                    Login
+                <ion-item nav-clear menu-close ui-sref="app.borrow">
+                    Borrowing
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.wallet">
+                    Wallet
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.profile">
                     Profile
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.friends">
-                    Friends
+				
+                <ion-item nav-clear menu-close ui-sref="app.contact">
+                    Contacts
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.gallery">
-                    Gallery
+                <ion-item nav-clear menu-close ui-sref="app.logout">
+                    Logout
                 </ion-item>
             </ion-list>
         </ion-content>
