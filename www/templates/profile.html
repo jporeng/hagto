@@ -1,41 +1,65 @@
-<ion-view view-title="Profile">
+<ion-view view-title="profile">
     <ion-content ng-class="{expanded:$scope.isExpanded}">
-        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+        <div class="hero slide-up" style="background-image: url('img/ref.jpg');">
             <div class="content">
-                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
-                <h3><a class="light">Daenerys Targaryen</a></h3>
-                <h4>dragon_mommy</h4>
+                <div class="avatar" style="background-image: url('img/hagto.jpg');"></div>
+                <h3><a class="light">HAGTO</a></h3>
+                
             </div>
         </div>
         <div class="tabs tabs-dark tabs-icon-top static">
-            <a ui-sref="app.activity" class="tab-item">
-                <i class="icon ion-arrow-graph-up-right"></i> Activity
+            <a ui-sref="app.Lending" class="tab-item">
+                <i class="icon ion-social-usd"></i> Lending
             </a>
-            <a ui-sref="app.friends" class="tab-item">
-                <i class="icon ion-android-people"></i> Friends
+            <a ui-sref="app.Borrower" class="tab-item">
+                <i class="icon ion-person"></i> Borrower
             </a>
-            <a ui-sref="app.gallery" class="tab-item">
-                <i class="icon ion-images"></i> Photos
+            <a ui-sref="app.Profile" class="tab-item">
+                <i class="icon ion-ios-people"></i> Profile
             </a>
+			<a ui-sref="app.Contact" class="tab-item">
+                <i class="icon ion-ios-contact "></i> Contact
+			</a>
+			<a ui-sref="app.Logout" class="tab-item">
+                <i class="icon ion-power"></i> Logout
+				</a>
         </div>
         <h4 class="content padding double-padding-x">Following</h4>
         <div class="list animate-fade-slide-in-right">
             <a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/jon-snow.jpg">
-                <h2>Jon Snow</h2>
-                <p>Da illest illegitimate</p>
+                <img src="img/">
+                <h2>PRAVIN KUMAR JAYAKODI</h2>
+                <p>Product&Growth</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/ajan.jpg">
+                <h2>VIVEKGUNA</h2>
+                <p>R&D Engineer</p>
                 <i class="icon ion-chatbubble muted"></i>
             </a>
             <a ui-sref="app.friends" class="item item-avatar item-icon-right">
                 <img src="img/sansa.jpg">
-                <h2>Sansa Stark</h2>
-                <p>&amp; Joffrey <strike>sitting</strike> sat in a tree</p>
+                <h2>AJAN BABU</h2>
+                <p>R&D Engineer</p>
                 <i class="icon ion-chatbubble muted"></i>
             </a>
             <a ui-sref="app.friends" class="item item-avatar item-icon-right">
                 <img src="img/tyrion.jpg">
-                <h2>Tyrion Lannister</h2>
-                <p>B.A.M.F. imp</p>
+                <h2>SUNDARESAN</h2>
+                <p>Developer</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/">
+                <h2>Dhenral</h2>
+                <p>Developer</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/">
+                <h2>Jeevithan</h2>
+                <p>Developer</p>
                 <i class="icon ion-chatbubble muted"></i>
             </a>
         </div>
