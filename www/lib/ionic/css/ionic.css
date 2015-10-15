@@ -4778,6 +4778,8 @@ a.item {
 
 .item-complex .item-content, .item-radio .item-content {
   position: relative;
+  font-weight:bold;
+  font-size:medium;
   z-index: 2;
   padding: 16px 49px 16px 16px;
   border: none;

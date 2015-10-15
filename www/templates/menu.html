@@ -4,7 +4,7 @@
             <ion-nav-back-button class="no-text">
             </ion-nav-back-button>
             <ion-nav-buttons side="right">
-                <button class="button button-icon button-clear ion-android-more-vertical" menu-toggle="right">
+                <button class="button button-icon button-clear ion-navicon-round" menu-toggle="right">
                 </button>
             </ion-nav-buttons>
         </ion-nav-bar>
@@ -18,20 +18,25 @@
         </ion-header-bar>
         <ion-content class="stable-bg has-expanded-header">
             <ion-list>
-                <ion-item nav-clear menu-close ui-sref="app.activity">
-                    Leanding
-                </ion-item>
+                <ion-item nav-social-usd ui-sref="app.activity">
+                    <button class="icon button-clear icon-left ion-social-usd-outline"></button>Leanding
+					                </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.login">
-                    Borrowing
+                    <button class="icon button-clear icon-left ion-ios-people"></button>Borrowing
+					                </ion-item>
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.profile">
-                    Profile
+                    <button class="icon button-clear icon-left ion-ios-people"></button>Wallet
+					                </ion-item>
+					
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.friends">
-                    Contact
+                    <button class="icon button-clear icon-left ion-ios-person"></button>Profile
+					                </ion-item>
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.gallery">
-                    Logout
+                    <button class="icon button-clear icon-left ion-power"></button>Logout
+					                </ion-item>
                 </ion-item>
             </ion-list>
         </ion-content>
