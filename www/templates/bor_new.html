@@ -1,0 +1,160 @@
+<ion-view view-title="New Loan">
+  <ion-content>
+ 
+
+	<div class="row responsive-sm">
+  <div class="col">
+  
+  <form method="post">
+<h5>Enter all the details*</h5>
+<div class="list">
+	
+
+
+  <label class="item item-input item-stacked-label" style="margin: 0 0 5px 0;">
+  <span class="input-label">Title for your loan</span>
+    <input type="text"  name="title" id="title" placeholder="">
+  </label>
+  
+ 
+  <label class="item item-input item-stacked-label" style="margin: 0 0 5px 0;">
+   <span class="input-label">Youtube Video URL*</span>
+    <input  name="url" id="url" type="text" placeholder="">
+  </label>
+  
+  
+  
+         	
+  <label class="item item-input item-stacked-label" style="margin: 0 0 5px 0;">
+   <span class="input-label">Details *</span>
+    <textarea  name="details" id="details" rows="7" cols="7" placeholder=""></textarea>
+  </label>
+  
+  
+  <select class="hagwidth" name="target" placeholder="fgdfg" id="target" >
+
+    <option value="" disabled selected hidden>Amount Needed (in Rs) *</option>
+
+<option value="30000">30000</option>
+
+<option value="50000">50000</option>
+
+<option value="50000">100000</option>
+
+<option value="50000">150000</option>
+
+<option value="50000">200000</option>
+</select>
+  
+  
+ 
+
+  
+
+
+<select class="hagwidth" name="lper_min" id="lper_min"  >
+
+    <option value="" disabled selected hidden>Minimum interest you need *</option>
+
+<option value="13">13 %</option>
+<option value="15">15 %</option>
+<option value="18">18 %</option>
+<option value="20">20 %</option>
+<option value="23">23 %</option>
+<option value="25">25 %</option>
+<option value="28">28 %</option>
+
+</select>
+			
+			
+
+
+
+
+<select class="hagwidth" name="lper_max" id="lper_max"  >
+ <option value="" disabled selected hidden>Maximum interest you need *</option>
+
+
+<option value="28">28 %</option>
+<option value="25">25 %</option>
+<option value="23">23 %</option>
+<option value="20">20 %</option>
+<option value="18">18 %</option>
+<option value="15">15 %</option>
+<option value="13">13 %</option>
+</select>
+						
+			
+			
+			
+			
+			
+			
+
+			<select class="hagwidth" name="terms" id="terms"  >
+ <option value="" disabled selected hidden>Loan duration *</option>
+
+
+<option value="6">6 months</option>
+<option value="12">12 months</option>
+<option value="18">18 months</option>
+
+<option value="24">24 months</option>
+
+<option value="30">30 months</option>
+
+
+
+
+
+
+
+
+</select>
+
+
+
+
+ <button class="button button-block button-positive">
+ Publish loan
+</button>
+
+
+
+
+
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</div></div>
+
+
+
+
+  </ion-content>
+</ion-view>
+<style>
+
+.hagwidth{
+	
+	
+	  padding: 3%;
+  width: 100%;
+  margin: 0 0 5px 0;
+  border: 1px solid #ddd;
+}</style>

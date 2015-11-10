@@ -1,44 +1,45 @@
-<ion-side-menus enable-menu-with-back-views="true">
-    <ion-side-menu-content>
-        <ion-nav-bar class="bar-assertive-900" ng-class="{expanded: isExpanded, 'has-header-fab-left': hasHeaderFabLeft, 'has-header-fab-right': hasHeaderFabRight}" align-title="left">
-            <ion-nav-back-button class="no-text">
-            </ion-nav-back-button>
-            <ion-nav-buttons side="right">
-                <button class="button button-icon button-clear ion-navicon-round" menu-toggle="right">
-                </button>
-            </ion-nav-buttons>
-        </ion-nav-bar>
-        <ion-nav-view name="fabContent"></ion-nav-view>
-        <ion-nav-view name="menuContent" ng-class="{expanded: isExpanded}" ></ion-nav-view>
-    </ion-side-menu-content>
-    <ion-side-menu side="right">
-        <ion-header-bar class="dark-bg expanded">
-            <span class="avatar" style="background: url('img/hagto.jpg'); background-size: cover;"></span>
-            <h2>Hagto</h2>
-        </ion-header-bar>
-        <ion-content class="stable-bg has-expanded-header">
-            <ion-list>
-                <ion-item nav-social-usd ui-sref="app.activity">
-                    <button class="icon button-clear icon-left ion-social-usd-outline"></button>Leanding
-					                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.login">
-                    <button class="icon button-clear icon-left ion-ios-people"></button>Borrowing
-					                </ion-item>
-                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.profile">
-                    <button class="icon button-clear icon-left ion-ios-people"></button>Wallet
-					                </ion-item>
-					
-                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.friends">
-                    <button class="icon button-clear icon-left ion-ios-person"></button>Profile
-					                </ion-item>
-                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.gallery">
-                    <button class="icon button-clear icon-left ion-power"></button>Logout
-					                </ion-item>
-                </ion-item>
-            </ion-list>
-        </ion-content>
-    </ion-side-menu>
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right">
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">Hagto</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+	  
+        <ion-item menu-close href="#/app/feed">
+		   <i class="ion-chatboxes"></i>
+        Feed
+        </ion-item>
+        <ion-item menu-close href="#/app/borrow">
+		<i class="ion-lightbulb"></i>
+          Borrow
+        </ion-item>
+        <ion-item menu-close href="#/app/wallet">
+		<i class="ion-card"></i>
+          Wallet
+        </ion-item>
+        <ion-item menu-close href="#/app/profile">
+		<i class="ion-person"></i>
+          Profile
+        </ion-item>
+		        <ion-item menu-close href="#/app/">
+				<i class="ion-log-out"></i>
+          Logout
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
 </ion-side-menus>

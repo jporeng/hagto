@@ -1,56 +1,28 @@
-<ion-view view-title="Welcome to hagto">
-    <ion-content ng-class="{expanded:$scope.isExpanded}">
-        <div class="hero slide-up" style="background-image: url('img/');">
-            <!-- <div class="content">
-                <div class="avatar" style="background-image: url('img/');"></div>
-                <h3><a class="light"></a></h3>
-                
-            </div> -->
-        </div>
-        <div class="tabs tabs-dark tabs-icon-top static">
-            <a ui-sref="app.Lending" class="tab-item">
-                <i class="icon ion-social-usd"></i> Start Lending
-            </a>
-            
-        </div>
-        <h4 class="content padding double-padding-x">Follower</h4>
-        <div class="list animate-fade-slide-in-right">
-		 <a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/">
-                <h2>Pravin Kumar</h2>
-                <p>Chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/viv.jpg">
-                <h2>Vivekguna</h2>
-                <p>chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            </a>
-			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/aja.jpg">
-                <h2>Ajan Babu</h2>
-                <p>Chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            </a>
-            
-            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/sun.jpg">
-                <h2>Sundaresan</h2>
-                <p>chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            </a>
-			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/dhen.jpg">
-                <h2>Dhenral</h2>
-                <p>chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            </a>
-			<a ui-sref="app.friends" class="item item-avatar item-icon-right">
-                <img src="img/">
-                <h2>Jeevithan</h2>
-                <p>chennai</p>
-                <i class="icon ion-chatbubble muted"></i>
-            </a>
-        </div>
-    </ion-content>
+<ion-view view-title="Profile">
+  <ion-content>
+   <ion-list>
+<div class="item item-divider">
+    Profile Information
+  </div>
+  <ion-item href="#/app/profile/details">
+   Profile details
+  </ion-item>
+   <ion-item href="#/app/profile/password">
+   Change password
+  </ion-item>
+   <div class="item item-divider">
+    Proof Settings
+  </div>
+    <ion-item href="#/detail">
+   Profile picture
+  </ion-item>
+    <ion-item href="#/detail">
+   Pan card
+  </ion-item>
+   <ion-item href="#/detail">
+   Votter card/ Passport
+  </ion-item>
+   
+</ion-list>
+  </ion-content>
 </ion-view>
